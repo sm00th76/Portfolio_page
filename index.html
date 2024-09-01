@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Baladitya Khantwal - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name"> 
+          <strong>Baladitya Khantwal</strong>
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          baladitya76@ibm.fullstack
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +18876541701
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations<a>
+         <!-- Add the links for Skills, Projects and Recommendation here -->
+        </div>
+      </div>    
+    </nav>
+
+    <section id="about-me" class="container">
+      <div id = "mygif">
+        <img src="https://camo.githubusercontent.com/2366b34bb903c09617990fb5fff4622f3e941349e846ddb7e73df872a9d21233/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f3733303730332f73637265656e73686f74732f363538313234332f6176656e746f2e676966" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi! I'm Baladitya Khantwal. <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmFNhQE2SLGXUR4yLSd8lNgvlYtHvGvQjbmQ&s" width="60px"/>
+          </h1>
+          <p>
+           This is my very first coursera course and have been following the same for 2 months.
+           I hope to gain knowledge and improve myself to hopefully be a assest to my economy.Cheers to whomever reading this i wish you all the best for your future endeavours.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+      <div class="all_skills">
+      <div class="skill" href = "">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDzR1LiyX_6UdTc_1PQqTTyH5CSIPOSkPiLg&s"/>
+        <h6>Unity</h6>
+        <p>0.5 years experience</p>
+      </div>
+        <div class="skill htmlme" onclick = "html_ibm()">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT680nErmNxRmM2j1RVPhCImp2k9nr-HXUpeA&s"/>
+          <h6>HTML</h6>
+          <p>0.4 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaERathZl4oiIQfs70fGsf-GWMH0bZe2x2eQ&s"/>
+          <h6>JavaScript</h6>
+          <p>0.2 years experience</p>
+        </div>  
+
+        <div class="skill">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh_-2cE2-XOyuWyEQJSler4t1ye5COocC5bA&s"/>
+            <h6>Java</h6>
+            <p>2 years experience</p>
+          </div> 
+
+          <div class="skill">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMYGp77iCyUMjrntTtlvsVE6LdX9UHqHR9hw&s"/>
+            <h6>python</h6>
+            <p>1.5 years experience</p>
+          </div> 
+      </div>
+    </section>
+          
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Cloud Master</h3>
+            <ul>
+              <li>Obtained Cloud computing knowledge through IBM</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>CSS conqueror</h3>
+            <ul>
+              <li>Hopefull to master html skills by EOTY</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Unity dev</h3>
+            <ul>
+              <li>Developed a stand alone unity game resembling flappy bird</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+            Baladitya the most awesome guy and chill work with, never seen someone with more enthusiasm to learn!
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+         How can anyone not like the guy?
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+            <span>&#8220;</span>
+            I heard the Html project is a little special
+            <span>&#8221;</span>
+          </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction" style = "color:green">Leave a Recommendation!</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <img src = "https://cdn-icons-png.flaticon.com/512/25/25694.png" style="flex">
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thanks 4 your recommmendation!</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
